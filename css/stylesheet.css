@@ -22,17 +22,18 @@ body
 
 h1
 {
-    text-shadow: 2px 2px 3px #000000;
-    font-size: 7rem;
-   font-family: 'Caveat Brush', cursive;
+    
+    font-size: 3.5rem;
+    color: purple;
     
 }
 
 h5{
     color: white;
     position: relative;
-    top: -80%;
-    right: -27%;
+    top: -50%;
+    right: -31%;
+    font-size: 1,8rem;
     
 }
 
@@ -128,7 +129,7 @@ img
 
 .ghost
 {
-    box-shadow: 3px 3px 3px #000000;
+    
 }
 .created
 {
@@ -169,7 +170,16 @@ html, body
     margin-bottom: 7%;
 }
 
-
+h1
+{
+    font-size: 7rem;
+}
+h5{
+    top: -90%;
+    right: -37%;
+    font-size: 2rem;
+    
+}
 }
 
 
@@ -179,14 +189,23 @@ html, body
 html, body
 {
   margin: auto;
-  width: 91%;
+  
 }
 
+h1
+{
+    font-size: 6rem;
+}
+    h5{
+    top: -80%;
+    right: -14%;
+    font-size: 2rem;
     
+}
     .created
 {
     margin-top: 3%;
-    font-size: 16px;
+   
     
 }
 } 
