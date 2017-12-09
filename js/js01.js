@@ -28,8 +28,8 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $("div").hover(function(){
-        $(".created").effect("slide",{direction:"down"}, 3000);
+    $(".created").hover(function(){
+        $(this).effect("slide", {time:1},3000);
     });
 });
 

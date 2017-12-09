@@ -1,0 +1,224 @@
+body, html
+{
+    height: 100%;
+    margin:0;
+}
+
+body
+{
+    background-image: url("../img/NYMstreet.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.navbar 
+{
+ 
+  margin-top: 2%;
+ 
+}
+
+h1
+{
+    
+    font-size: 3.5rem;
+    color: purple;
+    
+}
+
+h5{
+    color: white;
+    position: relative;
+    top: -50%;
+    right: -31%;
+    font-size: 1,8rem;
+    
+}
+
+.row
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ani
+{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 100px;
+   
+    color: rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+    
+   
+}
+
+
+.box1
+{
+    background-color: rgba(41, 40, 45, .8);
+    height: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    color:#ffffff;
+    font-size: 90%;
+    
+}
+
+.box
+{
+    background-color: rgba(41, 40, 45, .8);
+    height: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    color:#ffffff;
+    font-size: 90%;
+   
+}
+
+#artykul
+{
+    height: 100%;
+}
+
+
+
+.content
+{
+  display:flex;
+  align-items:center;
+  color: #000000;
+  background-color: rgba(255, 255, 255, .6);
+  
+
+  
+}
+
+#adress
+{
+    display:flex;
+    align-items:center;
+    color: black;
+    background-color: rgba(255, 255, 255, .6);
+    padding: 3%;
+    box-sizing: border-box;
+    padding-bottom: 5%;
+    padding-top: 10%;
+  
+  
+}
+
+h3, .title
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+img
+{
+  width: 100%;
+}
+
+.col-lg-4, .col-lg-8
+{
+    margin-top: 2%;
+}
+
+.ghost
+{
+    
+}
+.created
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction:column; 
+    color: #ffffff;
+    padding: none;
+    font-size: 12px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 5px #000000;
+    
+}
+.nav-item
+{
+     text-shadow: 2px 2px 5px #000000;
+     font-size: 120%;
+}
+
+@media only screen and (min-width:450px)
+{
+  
+html, body
+{
+  margin: auto;
+  width: 91%;
+}
+
+
+}
+
+@media only screen and (min-width:768px)
+{
+.menu, .box, #artykul, .created
+{
+    margin-bottom: 7%;
+}
+
+h1
+{
+    font-size: 7rem;
+}
+h5{
+    top: -90%;
+    right: -37%;
+    font-size: 2rem;
+    
+}
+}
+
+
+@media only screen and (min-width:1025px)
+{
+ 
+html, body
+{
+  margin: auto;
+  
+}
+
+h1
+{
+    font-size: 6rem;
+}
+    h5{
+    top: -80%;
+    right: -14%;
+    font-size: 2rem;
+    
+}
+    .created
+{
+    margin-top: 3%;
+   
+    
+}
+} 
+
+
+.mm
+{
+    display: none;
+}
+
+}
+
+/*
+font-family: 'Ranchers', cursive;
+font-family: 'Cinzel', serif;
+*/
